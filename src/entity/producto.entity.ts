@@ -1,0 +1,6 @@
+export enum ESTADO{
+    CREADO='CREADO',
+    ACTIVO='ACTIVO', 
+    BLOQUEADO='BLOQUEADO',
+
+}

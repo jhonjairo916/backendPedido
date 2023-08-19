@@ -1,8 +1,5 @@
-enum ESTADO{
-    ACTIVO=1, 
-    INACTIVO=-1
+import { ESTADO } from "src/entity/producto.entity";
 
-}
 export class Producto{
     idProducto?:string;
     desProducto?:string;
@@ -10,4 +7,5 @@ export class Producto{
     stockUmv?:number;
     numCarasProd?:number;
     costoProd?:number;
+    estado?:ESTADO;
 }
